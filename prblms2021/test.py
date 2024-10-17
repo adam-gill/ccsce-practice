@@ -1,6 +1,6 @@
-n = 3746
+inp = 9
 
-print("M" * (n % 1000))
+max_num = inp // 2 if inp % 2 == 0 else (inp // 2) + 1
 
-print(n % 1000)
+print(max_num)
 

@@ -1,9 +1,9 @@
 import sys
 
-from prblms2021.fences import fences
+from prblms2021.butterfly import butterfly
 
 with open('input.txt', 'r') as f:
     sys.stdin = f
     print("******************** Program Start ********************")
-    fences()
+    butterfly()
     print("******************** Program End **********************")

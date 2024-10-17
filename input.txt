@@ -1,7 +1,4 @@
-MCMIV
-MCMLXXIV
-DCIV
-DCXVII
-XXVIII
-XXIX
-quit
+3
+3 | =
+10 ^ -
+1 ! ~

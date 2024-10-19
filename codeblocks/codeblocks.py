@@ -10,6 +10,30 @@ trying to make these concise and generalized for plug and play like usage
 
 INPUT
 
+!!! Test code with Text File
+
+# might need __init__.py in folder or subfolder
+import sys
+
+from prblms2021.butterfly import butterfly
+
+with open('input.txt', 'r') as f:
+    sys.stdin = f
+    print("******************** Program Start ********************")
+    butterfly()
+    print("******************** Program End **********************")
+
+!!! Take in Dynamic Number of Inputs
+
+res_list = []
+    cases = []
+
+    num_cases = int(input())
+
+    for _ in range(num_cases):
+        case = int(input())
+        cases.append(case)
+
 !!! Function Setup to Take in User Input (input, functions)
 
 res_list = []

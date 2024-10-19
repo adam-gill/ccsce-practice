@@ -1,4 +1,17 @@
 3
-6
-7
-8
+add r1, $0, $3
+add r2, $0, $5
+add r3, r1, r2
+3
+mul r1, r2, $5
+sub r6, r1, $1
+add r7, r6, $3
+4
+add r6, $11, $6
+mul r7, r5, r6
+div r8, r6, $2
+mul r9, r8, r8
+2
+add r1, $0, $-1
+mul r2, $4, r1
+-1
